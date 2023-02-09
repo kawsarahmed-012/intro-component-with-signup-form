@@ -1,0 +1,113 @@
+.signup {
+  max-width: 1100px;
+  width: 80%;
+  padding-block: 20px;
+  text-align: center;
+}
+.signup__heading h1 {
+  margin-bottom: 28px;
+
+  font-size: 28px;
+  line-height: 1.2;
+}
+.signup__heading p {
+  margin-bottom: 60px;
+
+  line-height: 1.6;
+}
+.signup__fee {
+  padding: 20px 50px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+
+  box-shadow: 0 10px 0px rgba(0, 0, 0, 0.2);
+  background-color: var(--color-blue);
+
+  font-size: 15px;
+}
+.signup__fee span {
+  font-weight: 700;
+}
+form {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 10px 0px rgba(0, 0, 0, 0.2);
+}
+.signup__form-base {
+  position: relative;
+  text-align: right;
+  margin-bottom: 15px;
+}
+.signup__form-base > input,
+.signup__form-base > button {
+  width: 100%;
+  padding: 16px 24px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+}
+.signup__form-base > button {
+  background-color: var(--color-green);
+  border: none;
+  box-shadow: 0 5px 2px hsl(154, 59%, 45%);
+
+  color: white;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.signup__form-base img {
+  width: 25px;
+  position: absolute;
+  right: 24px;
+  top: 16px;
+}
+.signup__form-base em {
+  color: var(--color-red);
+  font-size: 14px;
+}
+.signup__tac {
+  display: block;
+  padding-block: 10px 20px;
+
+  color: var(--color-grayish-blue);
+  font-size: 11px;
+  font-weight: 500;
+}
+.signup__tac a {
+  font-weight: 700;
+  color: var(--color-red);
+  text-decoration: none;
+}
+
+@media screen and (min-width: 400px) and (max-width: 1200px) {
+  .signup {
+    max-width: 600px;
+  }
+  .signup__heading h1 {
+    font-size: calc(24px + 1vw);
+  }
+}
+@media screen and (min-width: 1200px) {
+  .signup {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+  }
+  .signup__heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    text-align: left;
+  }
+  .signup__heading h1 {
+    font-size: calc(28px + 1vw);
+  }
+  .signup__tac {
+    font-size: 12px;
+  }
+}
