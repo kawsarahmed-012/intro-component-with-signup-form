@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Source code](https://github.com/kawsarahmed-012/intro-component-with-signup-form)
-- Live Site URL: [Live Url](intro-component-with-signup-form-kawsar.netlify.com)
+- Live Site URL: [Live Url](https://intro-compo-with-signup-form-kawsar.netlify.com)
 
 ## My process
 
